@@ -1,0 +1,151 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    height: 100%;
+    background: #11a3fc url(backgrounds/back.jpg);
+    background-size: cover;
+}
+
+a.el:hover{
+ background-color: rgba(200, 209, 245, 0.53);
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: rgba(232, 232, 232, 0.85);
+    transition: all 0.4s;
+}
+
+.nav-link-collapse:after {
+    float: right;
+    content: '\f067';
+    font-family: 'FontAwesome';
+}
+
+.nav-link-show:after {
+    float: right;
+    content: '\f068';
+    font-family: 'FontAwesome';
+}
+
+.nav-item ul.nav-second-level {
+    padding-left: 0;
+}
+
+.nav-item ul.nav-second-level > .nav-item {
+    padding-left: 20px;
+}
+.li {
+    line-height: 70px;
+    margin: 10px;
+}
+
+@media (min-width: 992px) {
+    .sidenav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 230px;
+        height: calc(100vh - 3.5rem);
+        margin-top: 5.4rem;
+        background: rgba(220, 220, 220, 0.76);
+        box-sizing: border-box;
+    }
+
+    .navbar-expand-lg .sidenav {
+        flex-direction: column;
+    }
+
+    .content-wrapper {
+        margin-left: 230px;
+    }
+
+    .footer {
+        width: calc(100% - 200px);
+        margin-left: 230px;
+        margin-top: 10px;
+    }
+}
+
+.topnav {
+    font: bold 40px "Century Schoolbook", Georgia, Times, serif;
+    color: #bfbfbf;
+    line-height: 90%;
+    margin: .2em 0 .4em 0;
+    letter-spacing: -2px;
+}
+
+.element {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    color: #bfbfbf;
+    margin: 0;
+    padding: 0px 0px 6px 0px;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+
+
