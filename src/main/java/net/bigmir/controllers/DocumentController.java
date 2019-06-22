@@ -2,21 +2,17 @@ package net.bigmir.controllers;
 
 import com.google.gson.Gson;
 import com.sun.xml.internal.messaging.saaj.util.ByteOutputStream;
-import net.bigmir.GenericResponse;
 import net.bigmir.Uploader;
-import net.bigmir.dto.result.BadRequestResult;
 import net.bigmir.dto.result.ResultDTO;
 import net.bigmir.dto.result.SuccessResult;
 import net.bigmir.exceptions.FileOverMaximumException;
 import net.bigmir.services.DocumentService;
 import net.bigmir.services.StartUpService;
-import org.apache.commons.fileupload.FileUploadException;
 import org.apache.tomcat.util.http.fileupload.FileUploadBase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -24,14 +20,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.naming.SizeLimitExceededException;
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.net.URLEncoder;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 @Controller

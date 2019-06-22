@@ -2,837 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a9dd21-0015-4b29-89db-4ba536787ba4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWork/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/.idea/libraries/mysql_connector_java_5_1_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/.idea/libraries/mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/DBBank.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/abstractDao/BankDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/daoImp/AccountDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/daoImp/ExchangeRateDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/daoImp/TransactionDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/daoImp/UserDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/fixer/Fixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/fixer/Rates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/model/ExchangeRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/model/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/java/net/bigmir/utils/Convertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/META-INF/DBBank.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/abstractDao/BankDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/daoImp/AccountDAOImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/daoImp/ExchangeRateDAOImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/daoImp/TransactionDAOImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/daoImp/UserDAOImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/fixer/Fixer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/fixer/Rates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/model/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/model/ExchangeRate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/model/Transaction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBank/target/classes/net/bigmir/utils/Convertion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBBankWeb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/.idea/libraries/jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/.idea/libraries/mysql_connector_java_5_1_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/DBFlats.Ready.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/java/net/bigmir/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/java/net/bigmir/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/java/net/bigmir/DAOFlatImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/java/net/bigmir/DBProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/java/net/bigmir/Flat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/java/net/bigmir/GeneralServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/java/net/bigmir/GetFlatOnParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/java/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/webapp/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/webapp/get.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/webapp/optional.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/src/main/webapp/remove.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/ConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/DAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/DAOFlatImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/DBProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/Flat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/GeneralServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/GetFlatOnParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/get.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/optional.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/DBFlats/remove.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/classes/net/bigmir/ConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/classes/net/bigmir/DAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/classes/net/bigmir/DAOFlatImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/classes/net/bigmir/DBProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/classes/net/bigmir/Flat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/classes/net/bigmir/GeneralServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/classes/net/bigmir/GetFlatOnParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBFlats.Ready/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/DBMenu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/src/main/java/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/src/main/java/net/bigmir/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/src/main/java/net/bigmir/MenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/src/main/java/net/bigmir/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/target/classes/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/target/classes/net/bigmir/Menu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/target/classes/net/bigmir/MenuDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBMenu/target/classes/net/bigmir/Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/.idea/libraries/mysql_connector_java_5_1_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/DBOrders.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/java/net/bigmir/CommonDBOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/java/net/bigmir/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/java/net/bigmir/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/java/net/bigmir/CustomersDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/java/net/bigmir/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/java/net/bigmir/DBProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/java/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/java/net/bigmir/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/java/net/bigmir/OrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/java/net/bigmir/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/java/net/bigmir/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/CommonDBOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/ConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/CustomersDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/DAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/DBProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/DataBaseOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/OrderDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/DBOrders/target/classes/net/bigmir/ProductDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.1/HomeWork1.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.1/out/production/HomeWork1.1/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.1/out/production/HomeWork1.1/net/bigmir/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.1/out/production/HomeWork1.1/net/bigmir/TestClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.1/src/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.1/src/net/bigmir/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.1/src/net/bigmir/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/HomeWork1.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/out/production/HomeWork1.2/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/out/production/HomeWork1.2/net/bigmir/SaveTo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/out/production/HomeWork1.2/net/bigmir/Saver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/out/production/HomeWork1.2/net/bigmir/TextContainer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/src/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/src/net/bigmir/SaveTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/src/net/bigmir/Saver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.2/src/net/bigmir/TextContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/HomeWork1.3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/out/production/HomeWork1.3/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/out/production/HomeWork1.3/net/bigmir/Save.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/out/production/HomeWork1.3/net/bigmir/Serialization.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/out/production/HomeWork1.3/net/bigmir/Special.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/path.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/src/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/src/net/bigmir/Save.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/src/net/bigmir/Serialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork1.3/src/net/bigmir/Special.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/mvntest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case1/ClientDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case1/ClientDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case2/AbstractDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case2/ClientDAOEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/shared/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/shared/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/shared/Id.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case1/ClientDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case1/ClientDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case1/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case2/AbstractDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case2/ClientDAOEx.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case2/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/shared/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/shared/ConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/shared/Id.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/.idea/libraries/mysql_connector_java_5_1_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/.idea/libraries/mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/DBBank.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/abstractDao/BankDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/daoImp/AccountDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/daoImp/ExchangeRateDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/daoImp/TransactionDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/daoImp/UserDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/fixer/Fixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/fixer/Rates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/model/ExchangeRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/model/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/java/net/bigmir/utils/Convertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/META-INF/DBBank.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/abstractDao/BankDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/daoImp/AccountDAOImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/daoImp/ExchangeRateDAOImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/daoImp/TransactionDAOImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/daoImp/UserDAOImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/fixer/Fixer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/fixer/Rates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/model/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/model/ExchangeRate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/model/Transaction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBank/target/classes/net/bigmir/utils/Convertion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/DBBankWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/abstractDao/BankDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/daoImp/AccountDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/daoImp/ExchangeRateDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/daoImp/TransactionDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/daoImp/UserDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/deprecateTest/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/fixer/Fixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/fixer/Rates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/model/ExchangeRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/model/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/servlets/MainServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/net/bigmir/utils/Convertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/webapp/account.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/webapp/cabinet.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/webapp/convert.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/webapp/getmoney.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/webapp/myaccounts.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/webapp/options.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/webapp/refill.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/webapp/send.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/main/webapp/transact.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/src/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/byte-buddy-1.9.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/gson-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/hibernate-core-5.4.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/hibernate-entitymanager-5.4.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/jandex-2.0.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/protobuf-java-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/account.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/cabinet.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/convert.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/getmoney.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/myaccounts.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/options.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/refill.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/send.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBBankWeb/target/DBBankWeb/transact.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/.idea/libraries/jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/.idea/libraries/mysql_connector_java_5_1_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/DBFlats.Ready.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/java/net/bigmir/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/java/net/bigmir/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/java/net/bigmir/DAOFlatImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/java/net/bigmir/DBProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/java/net/bigmir/Flat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/java/net/bigmir/GeneralServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/java/net/bigmir/GetFlatOnParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/java/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/webapp/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/webapp/get.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/webapp/optional.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/src/main/webapp/remove.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/ConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/DAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/DAOFlatImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/DBProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/Flat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/GeneralServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/classes/net/bigmir/GetFlatOnParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/get.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/optional.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/DBFlats/remove.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/classes/net/bigmir/ConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/classes/net/bigmir/DAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/classes/net/bigmir/DAOFlatImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/classes/net/bigmir/DBProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/classes/net/bigmir/Flat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/classes/net/bigmir/GeneralServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/classes/net/bigmir/GetFlatOnParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBFlats.Ready/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/DBMenu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/src/main/java/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/src/main/java/net/bigmir/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/src/main/java/net/bigmir/MenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/src/main/java/net/bigmir/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/target/classes/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/target/classes/net/bigmir/Menu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/target/classes/net/bigmir/MenuDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBMenu/target/classes/net/bigmir/Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/.idea/libraries/mysql_connector_java_5_1_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/DBOrders.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/java/net/bigmir/CommonDBOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/java/net/bigmir/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/java/net/bigmir/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/java/net/bigmir/CustomersDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/java/net/bigmir/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/java/net/bigmir/DBProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/java/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/java/net/bigmir/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/java/net/bigmir/OrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/java/net/bigmir/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/java/net/bigmir/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/CommonDBOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/ConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/CustomersDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/DAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/DBProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/DataBaseOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/OrderDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/DBOrders/target/classes/net/bigmir/ProductDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.1/HomeWork1.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.1/out/production/HomeWork1.1/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.1/out/production/HomeWork1.1/net/bigmir/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.1/out/production/HomeWork1.1/net/bigmir/TestClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.1/src/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.1/src/net/bigmir/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.1/src/net/bigmir/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/HomeWork1.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/out/production/HomeWork1.2/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/out/production/HomeWork1.2/net/bigmir/SaveTo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/out/production/HomeWork1.2/net/bigmir/Saver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/out/production/HomeWork1.2/net/bigmir/TextContainer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/src/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/src/net/bigmir/SaveTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/src/net/bigmir/Saver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.2/src/net/bigmir/TextContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/HomeWork1.3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/out/production/HomeWork1.3/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/out/production/HomeWork1.3/net/bigmir/Save.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/out/production/HomeWork1.3/net/bigmir/Serialization.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/out/production/HomeWork1.3/net/bigmir/Special.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/path.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/src/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/src/net/bigmir/Save.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/src/net/bigmir/Serialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork1.3/src/net/bigmir/Special.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/ChatDataBase/Users.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/ChatDataBase/Users.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/ChatDataBase/db.opt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/.idea/libraries/gson_2_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/out/production/Client/net/bigmir/GetThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/out/production/Client/net/bigmir/JsonMessages.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/out/production/Client/net/bigmir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/out/production/Client/net/bigmir/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/out/production/Client/net/bigmir/PrivateMessageThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/out/production/Client/net/bigmir/Registration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/out/production/Client/net/bigmir/Room.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/out/production/Client/net/bigmir/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/out/production/Client/net/bigmir/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/src/net/bigmir/GetThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/src/net/bigmir/JsonMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/src/net/bigmir/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/src/net/bigmir/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/src/net/bigmir/PrivateMessageThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/src/net/bigmir/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/src/net/bigmir/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/src/net/bigmir/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Client/src/net/bigmir/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/.idea/artifacts/Server_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/.idea/libraries/gson_2_2_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/META-INF/Server.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/AddServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/AddUserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/GetAllUsersServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/GetListServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/JsonMessages.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/JsonUsers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/LogOutServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/MessageList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/Room.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/RoomList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/RoomServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/UserList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/classes/ua/kiev/prog/UserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/lib/gson-2.2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/artifacts/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/META-INF/Server.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/AddServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/AddUserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/GetAllUsersServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/GetListServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/JsonMessages.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/JsonUsers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/LogOutServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/MessageList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/Room.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/RoomList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/RoomServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/UserList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/out/production/Server/ua/kiev/prog/UserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/AddServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/AddUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/GetAllUsersServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/GetListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/JsonMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/JsonUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/LogOutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/MessageList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/RoomList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/RoomServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/UserList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/src/ua/kiev/prog/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork2/Server/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/mvntest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case1/ClientDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case1/ClientDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case2/AbstractDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case2/ClientDAOEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/case2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/shared/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/shared/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/src/main/java/ua/kiev/prog/shared/Id.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case1/ClientDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case1/ClientDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case1/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case2/AbstractDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case2/ClientDAOEx.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/case2/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/shared/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/shared/ConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/HomeWork3.1/jdbc1/target/classes/ua/kiev/prog/shared/Id.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/SpringMVC2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/classes/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/classes/WEB-INF/pages/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/classes/WEB-INF/pages/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/classes/net/bigmir/AppConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/classes/net/bigmir/MyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/classes/net/bigmir/Photo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/classes/net/bigmir/PhotoErrorException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/classes/net/bigmir/PhotoNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/classes/net/bigmir/WebInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/spring-aop-4.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/spring-beans-4.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/spring-context-4.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/spring-core-4.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/spring-expression-4.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/spring-web-4.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/lib/spring-webmvc-4.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/pages/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/out/artifacts/unnamed/WEB-INF/pages/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/src/main/java/net/bigmir/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/src/main/java/net/bigmir/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/src/main/java/net/bigmir/Photo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/src/main/java/net/bigmir/PhotoErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/src/main/java/net/bigmir/PhotoNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/src/main/java/net/bigmir/WebInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/src/main/resources/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/src/main/resources/WEB-INF/pages/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/src/main/resources/WEB-INF/pages/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/target/classes/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/target/classes/WEB-INF/pages/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/target/classes/WEB-INF/pages/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/target/classes/net/bigmir/AppConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/target/classes/net/bigmir/MyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/target/classes/net/bigmir/Photo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/target/classes/net/bigmir/PhotoErrorException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/target/classes/net/bigmir/PhotoNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/SpringMVC2/target/classes/net/bigmir/WebInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/java/net/bigmir/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/java/net/bigmir/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/java/net/bigmir/FileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/java/net/bigmir/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/java/net/bigmir/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/java/net/bigmir/Zip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/java/net/bigmir/ZipRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/java/net/bigmir/ZipService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/main/webapp/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipArchive/src/test/java/net/bigmir/ZiparchiveApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/ZipSecurity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/Downloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/ZipSecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/controllers/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/model/DBFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/model/SimpleUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/model/Zip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/repositories/FileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/repositories/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/repositories/ZipRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/services/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/java/net/bigmir/services/ZipService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/webapp/pages/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/webapp/pages/files.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/webapp/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/webapp/pages/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/webapp/pages/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/webapp/pages/unknown.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/webapp/static/file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/src/main/webapp/static/zip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/Downloader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/ZipSecurityApplication$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/ZipSecurityApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/controllers/MyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/model/DBFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/model/SimpleUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/model/UserRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/model/Zip.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/repositories/FileRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/repositories/UserRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/repositories/ZipRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/services/UserDetailsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/services/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/classes/net/bigmir/services/ZipService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/ZipSecurity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/Downloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/ZipSecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/controllers/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/model/DBFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/model/SimpleUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/model/Zip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/repositories/FileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/repositories/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/repositories/ZipRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/services/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/java/net/bigmir/services/ZipService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/webapp/pages/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/webapp/pages/files.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/webapp/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/webapp/pages/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/webapp/pages/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/webapp/pages/unknown.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/webapp/static/file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/src/main/webapp/static/zip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/META-INF/ZipSecurity.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/Downloader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/ZipSecurityApplication$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/ZipSecurityApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/controllers/MyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/model/DBFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/model/SimpleUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/model/UserRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/model/Zip.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/repositories/FileRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/repositories/UserRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/repositories/ZipRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/services/UserDetailsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/services/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/classes/net/bigmir/services/ZipService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/JavaPro/HomeWork/ZipSecurity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/SpringMVC2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/java/net/bigmir/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/java/net/bigmir/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/java/net/bigmir/FileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/java/net/bigmir/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/java/net/bigmir/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/java/net/bigmir/Zip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/java/net/bigmir/ZipRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/java/net/bigmir/ZipService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/main/webapp/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipArchive/src/test/java/net/bigmir/ZiparchiveApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/Downloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/ZipSecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/controllers/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/model/DBFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/model/SimpleUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/model/Zip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/repositories/FileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/repositories/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/repositories/ZipRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/services/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/java/net/bigmir/services/ZipService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/webapp/pages/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/webapp/pages/files.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/webapp/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/webapp/pages/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/webapp/pages/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/webapp/pages/unknown.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/webapp/static/file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/ZipSecurity/src/main/webapp/static/zip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/src/main/java/ua/kiev/prog/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/src/test/java/ua/kiev/prog/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/target/classes/ua/kiev/prog/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/target/surefire-reports/TEST-ua.kiev.prog.AppTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/target/surefire-reports/ua.kiev.prog.AppTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/target/test-app-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/test-app/target/test-classes/ua/kiev/prog/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StartUpApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StartUpApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/DocumentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/StartUpApp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/controllers/DocumentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/bigmir/controllers/DocumentController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -848,33 +25,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3819">
-              <caret line="257" column="27" selection-start-line="257" selection-start-column="27" selection-end-line="257" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/StartUpController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2470">
-              <caret line="130" column="20" lean-forward="true" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
+            <state relative-caret-position="513">
+              <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/DocumentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/repositories/PasswordResetTokenRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -954,12 +131,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/documents.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/forbidden.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/forgot_password.jsp" />
@@ -997,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/main/java/net/bigmir/dto/SimpleUserDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/bigmir/dto/result/SuccessResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/ChatController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/DocumentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/ForgotPasswordController.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/FriendController.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/LoginController.java" />
@@ -1010,6 +185,8 @@
         <option value="$PROJECT_DIR$/src/main/java/net/bigmir/repositories/TaskRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/bigmir/services/StartUpService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/StartUpController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/DocumentController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1032,11 +209,16 @@
           <item name="StartUpApp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="StartUpApp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1208" />
     <option name="y" value="27" />
     <option name="width" value="712" />
@@ -1049,8 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1220,6 +400,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1231,6 +413,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556991355309" />
@@ -1349,11 +532,13 @@
       <workItem from="1561133665213" duration="6543000" />
       <workItem from="1561188791554" duration="11830000" />
       <workItem from="1561201390217" duration="561000" />
+      <workItem from="1561203618963" duration="121000" />
+      <workItem from="1561203790368" duration="851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="506029000" />
+    <option name="totallyTimeSpent" value="507001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1365,9 +550,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1208" y="27" width="712" height="1053" extended-state="4" />
+    <frame x="67" y="27" width="1853" height="1053" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4491018" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17247097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1377,7 +562,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19956616" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36659437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3167028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1393,7 +578,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.39325842" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32965213" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32946378" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -1734,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/DocumentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/ForgotPasswordController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11">
@@ -1773,6 +951,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3819">
           <caret line="257" column="27" selection-start-line="257" selection-start-column="27" selection-end-line="257" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/StartUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/repositories/PasswordResetTokenRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1822,24 +1014,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/StartUpController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/DocumentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+        <state relative-caret-position="95">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2470">
-          <caret line="130" column="20" lean-forward="true" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/repositories/PasswordResetTokenRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="42">
+          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
         </state>
       </provider>
     </entry>
