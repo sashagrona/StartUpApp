@@ -75,8 +75,8 @@ public class MainController {
         }
         if (user.getRole().equals(UserRole.BANNED)){
             long date = new Date().getTime();
-            if (date<(user.getExpiredTime().getTime()+1000*60)) {
-//                banning user
+            if (date<(user.getExpiredTime().getTime()+1000*60*60*24)) {
+//                banning user for 24 hours
                 throw new UserBannedException("You are banned for 24 hours by administrator");
             }else {
                 user.setRole(UserRole.USER);
@@ -276,6 +276,7 @@ public class MainController {
 
     @ExceptionHandler(UserBannedException.class)
     public String handleException(UserBannedException exception, Model model, Authentication authentication){
+//       setting user logged out of app
         authentication.setAuthenticated(false);
         model.addAttribute("userBanned", exception.getMessage());
         return "error";
