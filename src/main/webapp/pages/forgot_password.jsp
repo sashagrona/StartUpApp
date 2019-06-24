@@ -21,31 +21,40 @@
 <div class="container form-horizontal" align="center">
     <div class="row">
         <div class="col-md-offset-3 col-md-6">
-<%--            Sending token to input email with possibility to update password--%>
+            <%--            Sending token to input email with possibility to update password--%>
             <c:choose>
                 <c:when test="${error ne null}">
                     <br><br><br>
                     <h2><c:out value="${error.message}"></c:out></h2>
-                    <br><a href="/login"><button class="btn btn-primary">Return to login</button></a>
+                    <br><a href="/login">
+                    <button class="btn btn-primary">Return to login</button>
+                </a>
                 </c:when>
                 <c:when test="${success ne null}">
                     <br><br><br>
                     <h2><c:out value="${success.message}"></c:out></h2>
-                    <br><a href="/login"><button class="btn btn-primary">Return to login</button></a>
+                    <br><a href="/login">
+                    <button class="btn btn-primary">Return to login</button>
+                </a>
                 </c:when>
                 <c:otherwise>
-            <h2>Input the email to update the password</h2><br>
-            <form id="reg" action="/forgot/resetPassword" method="post">
-                <div class="form-group">
-                    <input required type="email" class="form-control" id="emailOne" name="email" placeholder="Email">
+                    <h2>Input the email to update the password</h2><br>
+                    <form id="reg" action="/forgot/resetPassword" method="post">
+                        <div class="form-group">
+                            <input required type="email" class="form-control" id="emailOne" name="email"
+                                   placeholder="Email">
 
-                    <div class="requirements" id="m_Email"></div><br><br>
-                    <input type="submit" class="btn btn-success" value="Reset password">
+                            <div class="requirements" id="m_Email"></div>
+                            <br><br>
+                            <input type="submit" class="btn btn-success" value="Reset password">
 
-                    <br><br><a href="/login"><button class="btn btn-primary">Return to login</button></a>
-                    <sec:csrfInput/>
-                </div>
-            </form>
+
+                            <sec:csrfInput/>
+                        </div>
+                    </form>
+                    <br><br><a href="/login">
+                    <button class="btn btn-primary">Return to login</button>
+                </a>
                 </c:otherwise>
             </c:choose>
         </div>
