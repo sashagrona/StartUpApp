@@ -9,15 +9,15 @@ Technologies used in StartUpApp:
 
 Back-end:
 
-   1)Spring(MVC,IOC,Data, Boot,Security)
-   2)Hibernate, JPA
-   3)Web Sockets
-   4)OAuth2
+1)Spring(MVC,IOC,Data, Boot,Security)
+2)Hibernate, JPA
+3)Web Sockets
+4)OAuth2
 
 Front-end:
 
-   1)HTML
-   2)CSS
-   3)Bootstrap
-   4)JavaScript(especially AJAX, JQuery)
+1)HTML
+2)CSS
+3)Bootstrap
+4)JavaScript(especially AJAX, JQuery)
    
