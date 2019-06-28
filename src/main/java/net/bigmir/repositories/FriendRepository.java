@@ -15,6 +15,10 @@ public interface FriendRepository extends JpaRepository<Friend, Long> {
     @Query("DELETE FROM Friend f WHERE f.email=:email AND f in (SELECT f FROM Friend f JOIN f.users u WHERE u=:user)")
     void deleteFriendByUser(@Param("email") String email, @Param("user") SimpleUser user);
 
+    @Query("SELECT CASE when COUNT(f)>0 THEN TRUE ELSE FALSE END FROM Friend f WHERE f.email=:email")
+    boolean findByEmail(@Param("email") String email);
+
+    Friend findFriendByEmail(String email);
 
 
 }
