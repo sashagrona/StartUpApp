@@ -116,7 +116,11 @@ public class FriendController {
         SimpleUser user = simpleUserService.getSimpleUserFromAuth(authentication);
         SimpleUser userFriend = simpleUserService.findByEmail(email);
         if (!friendService.isFriend(user,userFriend.getEmail())) {
-            user.addFriend(new Friend(userFriend));
+            if (!friendService.isFriendExists(email)) {
+                user.addFriend(new Friend(userFriend));
+            }else {
+                user.addFriend(friendService.getFriend(email));
+            }
             simpleUserService.saveUser(user);
         }
         return new ResponseEntity<>(new SuccessResult(), HttpStatus.OK);
