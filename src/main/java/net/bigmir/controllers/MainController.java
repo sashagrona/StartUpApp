@@ -13,6 +13,7 @@ import net.bigmir.model.Friend;
 import net.bigmir.model.SimpleUser;
 import net.bigmir.model.StartUp;
 import net.bigmir.model.UserRole;
+import net.bigmir.services.FriendService;
 import net.bigmir.services.SimpleUserService;
 import net.bigmir.services.StartUpService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -64,6 +65,9 @@ public class MainController {
 
     @Autowired
     private JavaMailSender mailSender;
+
+    @Autowired
+    private FriendService friendService;
 
     @RequestMapping("/")
     public String index(Model model, Authentication authentication) {
@@ -123,6 +127,10 @@ public class MainController {
 
             user.setPictureURL("photos/" + photo);
             simpleUserService.saveUser(user);
+            if (friendService.isFriendExists(user.getEmail())){
+                friendService.getFriend(user.getEmail()).setPictureURL("photos/" + photo);
+                friendService.save(friendService.getFriend(user.getEmail()));
+            }
         }
         return "redirect:/myprofile";
 
@@ -164,6 +172,17 @@ public class MainController {
         }
 
         simpleUserService.saveUser(user);
+        if (friendService.isFriendExists(user.getEmail())){
+            Friend friend = friendService.getFriend(user.getEmail());
+            if((!login.equals(""))&&login.length()>3){
+                friend.setLogin(login);
+            }
+
+            if ((!phone.equals(""))){
+                friend.setPhone(phone);
+            }
+            friendService.save(friend);
+        }
         return "redirect:/myprofile";
     }
 

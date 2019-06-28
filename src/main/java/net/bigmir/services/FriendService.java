@@ -31,6 +31,24 @@ public class FriendService {
         return false;
     }
 
+    @Transactional
+    public boolean isFriendExists(String email){
+        if (friendRepository.findByEmail(email)){
+            return true;
+        }
+        return false;
+
+    }
+
+    @Transactional
+    public Friend getFriend(String email){
+        return friendRepository.findFriendByEmail(email);
+    }
+    @Transactional
+    public void save(Friend friend){
+        friendRepository.save(friend);
+    }
+
 
     @Transactional
     public boolean isParticipant(StartUp startUp, String friendEmail){

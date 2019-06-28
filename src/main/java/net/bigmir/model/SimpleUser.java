@@ -60,6 +60,7 @@ public class SimpleUser {
     }
 
     public void addFriend(Friend friend) {
+
         friends.add(friend);
     }
 

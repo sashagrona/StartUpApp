@@ -23,6 +23,8 @@ public class Friend {
 
 
     private String login;
+
+    @Column(unique = true)
     private String email;
     private String pictureURL;
     private String phone;
