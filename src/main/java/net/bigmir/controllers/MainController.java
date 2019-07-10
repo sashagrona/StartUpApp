@@ -245,7 +245,7 @@ public class MainController {
 
 
     @RequestMapping("/block")
-    public ResponseEntity<ResultDTO> deleteUser(@RequestParam("json") String json, Authentication authentication){
+    public ResponseEntity<ResultDTO> blockUser(@RequestParam("json") String json, Authentication authentication){
         SimpleUser user = simpleUserService.getSimpleUserFromAuth(authentication);
         if(user.getRole().equals(UserRole.ADMIN)){
             Gson gson = new Gson();

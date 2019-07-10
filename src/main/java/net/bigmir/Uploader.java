@@ -40,9 +40,6 @@ public class Uploader implements Runnable {
             byte[] bytes = map.get(docName);
             String fullPath = directory.getPath() + "/" + docName;
             File doc = new File(fullPath);
-            System.out.println(docName);
-            System.out.println(startUp.getName());
-            System.out.println(fullPath);
             try (OutputStream os = new FileOutputStream(doc)) {
                 os.write(bytes);
             } catch (IOException e) {
@@ -51,7 +48,6 @@ public class Uploader implements Runnable {
 //            converting bytes into MB
             BigDecimal s = BigDecimal.valueOf(bytes.length).divide(BigDecimal.valueOf(1024 * 1024)).setScale(1, BigDecimal.ROUND_HALF_UP);
             Document document = new Document(docName, startUp, fullPath, s.doubleValue());
-            System.out.println(document.getName());
             docService.saveDoc(document);
 
         }

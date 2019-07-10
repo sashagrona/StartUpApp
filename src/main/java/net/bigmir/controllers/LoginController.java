@@ -1,16 +1,11 @@
 package net.bigmir.controllers;
 
-import net.bigmir.dto.result.BadRequestResult;
-import net.bigmir.dto.result.ResultDTO;
 import net.bigmir.exceptions.EmailNotFoundException;
 import net.bigmir.model.SimpleUser;
 import net.bigmir.model.UserRole;
 import net.bigmir.services.SimpleUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ResolvableType;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.client.registration.ClientRegistration;
@@ -21,7 +16,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

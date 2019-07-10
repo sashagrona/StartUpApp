@@ -42,7 +42,6 @@ public class WebSocketListener {
             chatMessageDTO.setType(TypeMessage.OFFLINE);
             chatMessageDTO.setSender(simpleUserService.findByEmail(userEmail).toDTO());
             chatMessageDTO.setChat(chatName);
-            System.out.println(chatName);
             messagingTemplate.convertAndSend("/topic/private." + chatName, chatMessageDTO);
         }
     }

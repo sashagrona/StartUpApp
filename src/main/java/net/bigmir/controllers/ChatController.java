@@ -75,7 +75,6 @@ public class ChatController {
         SimpleUser user = simpleUserService.findByEmail(chatMessageDTO.getSender().getEmail());
         Chat chat = chatService.getChatByName(chatMessageDTO.getChat());
         ChatMessage chatMessage = new ChatMessage(chatMessageDTO.getType(),chatMessageDTO.getContent(),user,chat, chatMessageDTO.getDate());
-        System.out.println(chatMessage.getDate());
         chatMessageService.saveMessage(chatMessage);
         return chatMessageDTO;
     }
@@ -85,7 +84,6 @@ public class ChatController {
     public ChatMessageDTO registerUser(@PathVariable("name") String chatJson, @Payload ChatMessageDTO chatMessageDTO, SimpMessageHeaderAccessor headerAccessor) {
         Gson gson = new Gson();
         String chatName = gson.fromJson(chatJson, ChatMessageDTO.class).getChat();
-        System.out.println(chatName);
 
         headerAccessor.getSessionAttributes().put("chatName", chatName);
         headerAccessor.getSessionAttributes().put("userEmail", gson.fromJson(chatJson, ChatMessageDTO.class).getSender().getEmail());

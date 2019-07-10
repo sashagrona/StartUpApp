@@ -83,8 +83,6 @@ public class SimpleUserService {
             return "invalidToken";
         }
         Calendar calendar = Calendar.getInstance();
-        System.out.println(tokenPass.getExpireTime());
-        System.out.println(calendar.getTime());
         if(tokenPass.getExpireTime() - calendar.getTime().getTime() <= 0){
             return "expired";
         }

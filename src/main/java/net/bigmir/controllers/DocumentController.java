@@ -70,7 +70,7 @@ public class DocumentController {
     }
 
     @RequestMapping(value = "/download")
-    public ResponseEntity<byte[]> getDocument(Model model, @RequestParam("sName") String startUpName, @RequestParam("name") String fileName) {
+    public ResponseEntity<byte[]> getDocument(@RequestParam("sName") String startUpName, @RequestParam("name") String fileName) {
         File doc = new File("Documents/" + startUpName + "/" + fileName);
         try (OutputStream os = new ByteOutputStream()) {
 //            for cyrillic needs to replace '+' by ' '
@@ -91,9 +91,7 @@ public class DocumentController {
 
         Gson gson = new Gson();
         String path = gson.fromJson(json, String.class);
-        System.out.println(path);
         File file = new File(path);
-        System.out.println(file.delete());
         documentService.deleteDocument(path);
         return new ResponseEntity<>(new SuccessResult(), HttpStatus.OK);
     }
