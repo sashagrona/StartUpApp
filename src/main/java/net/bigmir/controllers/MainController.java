@@ -91,7 +91,7 @@ public class MainController {
     }
 
     @RequestMapping("/myprofile")
-    public String updateMyProfile(Model model, Authentication authentication) {
+    public String myProfile(Model model, Authentication authentication) {
         SimpleUser user = simpleUserService.getSimpleUserFromAuth(authentication);
         model.addAttribute("login", user.getLogin());
         model.addAttribute("email", user.getEmail());
