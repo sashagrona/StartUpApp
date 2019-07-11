@@ -22,11 +22,17 @@ jQuery(function ($) {
             var v_passOne = true;
             var v_passTwo = true;
             $('#m_PasswordOne').text("Password should have at least 6 characters");
-        } else if (one.val() != two.val()) {
+        }else {
+            $('#m_PasswordOne').text("");
+        }
+
+
+        if (one.val() != two.val()) {
             var v_passOne = true;
             var v_passTwo = true;
             $('#m_PasswordTwo').text("Passwords don't match");
-        } else {
+
+        }else {
             $('#m_PasswordTwo').text("");
         }
 

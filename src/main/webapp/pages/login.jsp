@@ -26,13 +26,13 @@
             <form class="form-horizontal" method="POST" action=${logURL}><br>
                 <h2>StartUpApp</h2>
                 <div class="form-group">
-                    <i class="fa fa-envelope-o"></i><input required type="email" class="form-control"
+                    <i class="fa fa-envelope-o"></i><input style="background: #f1f1f1" required type="email" class="form-control"
                                                            placeholder="E-mail"
                                                            name="email">
 
                 </div>
                 <div class="form-group">
-                    <i class="fa fa-lock"></i><input required type="password" class="form-control"
+                    <i class="fa fa-lock"></i><input style="background: #f1f1f1" required type="password" class="form-control"
                                                      placeholder="Password" name="password">
                 </div>
                     <c:if test="${param.error ne null}">
@@ -41,15 +41,15 @@
                         </div><br>
                     </c:if>
 <%--                forgot password function --%>
-                <div><a href="/forgot/showPage"> Forgot password?</a></div>
+
                 <div>
-                    <br>
-                    <button type="submit" class="btn btn-primary">Login</button>
-                    <br><br>
-                    <p>Are you new user?<br>You can sign up</p>
-                    <a href="/register" class="btn btn-primary">Sign up</a><br><br>
+                    <button style="width: 82%;" type="submit" class="btn btn-success btn-block center-block">Login</button><br>
+
+                    <p><a style="margin-right: 13%;" href="/register">Sign up</a><a style="margin-left:13%;" href="/forgot/showPage">Forgot password?</a></p>
+
 <%--login via other apps--%>
-                    <p>Login via:</p><br>
+                    <hr style="background-color : #cccccc; ">
+                    <p>Login via:</p>
                     <button type="button" class="btn btn-default" onclick="goToURL('${google}');"/>
                     <img src="icons/google.png" width="40" height="40"/></button>
                     <button type="button" class="btn btn-default" onclick="goToURL('${facebook}');"/>

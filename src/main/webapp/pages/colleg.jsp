@@ -27,8 +27,8 @@
 </head>
 <body>
 <%--Navigation bar--%>
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: #dcdcdc;opacity: 0.99">
-    <a class="navbar-brand" style="color: black; font-size: 40px" href="/">StartUpApp</a>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: rgba(107,111,112,0.78);opacity: 0.99">
+    <a class="navbar-brand" style="color: black; font-size: 40px" href="/about">StartUpApp</a>
     <button class="navbar-toggler"
             type="button"
             style="color: black;"
@@ -43,51 +43,55 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto sidenav" id="navAccordion">
             <li class="nav-item active">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/myprofile">My
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/myprofile">My
                     Profile</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/colleg">My
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/colleg">My
                     Friends</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/create_startup">My
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/create_startup">My
                     StartUps</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/friend/find">Find
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/friend/find">Find
                     friends</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/chat/all">StartUp chats</a>
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/chat/all">StartUp
+                    chats</a>
             </li>
+
+            <form action="/logout" method="post" id="form">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-size: 26px;align-self: center; color: #333333" onclick="document.getElementById('form').submit();">Log
+                        Out</a>
+                </li>
+                <sec:csrfInput/>
+            </form>
         </ul>
-        <form class="form-inline ml-auto mt-2 mt-md-0" action="/logout" method="post">
+        <div class="form-inline ml-auto mt-2 mt-md-0">
             <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                 <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <img src="${photo}" width="50" style="margin: 10px" height="50"
-                             onerror="if (this.src!='/icons/default.png') this.src = '/icons/default.png'; ">
-                    </li>
                     <li class="nav-item">
                         <div style="color: #000;font-size: 20px;margin:15px;"><c:out value="${login}"/></div>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-default" style="margin: 7px;font-size: 20px;color: black" type="submit">
-                            Log Out
-                        </button>
+                        <img src="${photo}" width="50" style="margin: 10px" height="50"
+                             onerror="if (this.src!='/icons/default.png') this.src = '/icons/default.png'; ">
                     </li>
+
                 </ul>
             </div>
-            <sec:csrfInput/>
-        </form>
+
+        </div>
     </div>
 </nav>
 
-<%--Main content--%>
 <div align="right">
-    <main class="form-horizontal" style="width: 72%;margin: 50px;background-color: #00b7f7;opacity: 100;">
-        <div class="container-fluid">
+    <main class="form-horizontal" style="width: 72%;margin: 50px;background-color: rgba(107,111,112,0.78);opacity: 80%;">
+        <div class="container-fluid"><br>
 
 <%--List of friends, with delete function--%>
             <c:choose>
@@ -106,7 +110,7 @@
                             <tr>
                                 <td><a href="/friend/profile?email=${f.email}"><img src="${f.pictureURL}" width="40" height="40"
                                                                                     onerror="if (this.src!='/icons/default.png') this.src = '/icons/default.png';"></a></td>
-                                <td><c:out value="${f.login}"></c:out></td>
+                                <td style="font-size: 20px;"><c:out value="${f.login}"></c:out></td>
                                 <td><button class="btn btn-danger" id="delete" onclick="deleteObject('${f.email}', '/friend/delete', '/colleg')">Delete from friends</button> </td>
                             </tr>
                         </c:forEach>

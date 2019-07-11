@@ -27,7 +27,7 @@ body{
     position: relative;
 }
 .form-horizontal .form-control{
-    background: #f0f0f0;
+    background: rgb(239, 239, 239);
     border: none;
     border-radius: 20px;
     box-shadow: none;
@@ -122,8 +122,8 @@ body{
 }
 
 h2{
-    font: bold 46px "Century Schoolbook", Georgia, Times, serif;
-    color: #333;
+    font: bold 46px Georgia, Times, serif;
+    color: #131313;
     line-height: 90%;
     margin: .2em 0 .4em 0;
     letter-spacing: -2px;
@@ -131,7 +131,7 @@ h2{
 
 p{
     font-family: times, Times New Roman, times-roman, georgia, serif;
-    color: #444;
+    color: #161616;
     margin: 0;
     padding: 0px 0px 6px 0px;
     font-size: 16px;

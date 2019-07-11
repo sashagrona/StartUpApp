@@ -26,8 +26,8 @@
 </head>
 <body>
 <%--Navigation bar--%>
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: #dcdcdc;opacity: 0.99">
-    <a class="navbar-brand" style="color: black; font-size: 40px" href="/">StartUpApp</a>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: rgba(107,111,112,0.78);opacity: 0.99">
+    <a class="navbar-brand" style="color: black; font-size: 40px" href="/about">StartUpApp</a>
     <button class="navbar-toggler"
             type="button"
             style="color: black;"
@@ -42,55 +42,67 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto sidenav" id="navAccordion">
             <li class="nav-item active">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/myprofile">My Profile</a>
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/myprofile">My
+                    Profile</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/colleg">My Friends</a>
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/colleg">My
+                    Friends</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/create_startup">My StartUps</a>
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/create_startup">My
+                    StartUps</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/friend/find">Find friends</a>
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/friend/find">Find
+                    friends</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/chat/all">StartUp chats</a>
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/chat/all">StartUp
+                    chats</a>
             </li>
+
+            <form action="/logout" method="post" id="form">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-size: 26px;align-self: center; color: #333333" onclick="document.getElementById('form').submit();">Log
+                        Out</a>
+                </li>
+                <sec:csrfInput/>
+            </form>
         </ul>
-        <form class="form-inline ml-auto mt-2 mt-md-0" action="/logout" method="post">
+        <div class="form-inline ml-auto mt-2 mt-md-0">
             <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                 <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <img src="${photo}" width="50" style="margin: 10px" height="50" onerror="if (this.src!='/icons/default.png') this.src = '/icons/default.png'; ">
-                    </li>
                     <li class="nav-item">
                         <div style="color: #000;font-size: 20px;margin:15px;"><c:out value="${login}"/></div>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-default" style="margin: 7px;font-size: 20px;color: black" type="submit">Log Out</button>
+                        <img src="${photo}" width="50" style="margin: 10px" height="50"
+                             onerror="if (this.src!='/icons/default.png') this.src = '/icons/default.png'; ">
                     </li>
+
                 </ul>
             </div>
-            <sec:csrfInput/>
-        </form>
+
+        </div>
     </div>
 </nav>
-<%--Main content--%>
+
 <div align="right">
-    <main class="form-horizontal" style="width: 72%;margin: 50px;background-color: #00b7f7;opacity: 100;">
-        <div class="container-fluid">
+    <main class="form-horizontal" style="width: 72%;margin: 50px;background-color: rgba(107,111,112,0.78);opacity: 80%;">
+        <div class="container-fluid"><br>
             <form action="/invite" id="reg" method="post">
 <%--                sending email for joining to startup--%>
-                <br><p>Input an email friend to invite to your StartUp</p><br>
+                <br><p style="font-size: 22px;">Input an email friend to invite to your StartUp</p><br>
                 <input required type="email" class="form-control" id="emailOne" name="email" placeholder="Invite friend">
 
                 <div class="requirements" id="m_Email"></div><br>
-                <input type="submit" class="btn btn-primary" value="Invite">
+                <input type="submit" class="btn btn-secondary" value="Invite">
 
                 <sec:csrfInput/>
             </form>
             <c:if test="${success ne null}">
-                <p><c:out value="${success}"></c:out></p>
+                <p style="font-size: 22px;"><c:out value="${success}"></c:out></p>
                 <br><br>
             </c:if>
 <%--Serching function from the list of friends--%>
@@ -98,7 +110,7 @@
                 <div class="form-group">
                     <input type="text" class="form-control" name="word" placeholder="Search">
                 </div>
-                <button type="submit" class="btn btn-success">Search</button>
+                <button type="submit" class="btn btn-secondary">Search</button>
                 <sec:csrfInput/>
             </form>
             <table id="data" class="table table-hover">
@@ -112,24 +124,19 @@
                         <td><c:out value="${u.login}"></c:out></td>
                         <c:choose>
                             <c:when test="${u.disableButton eq true}">
-                                <td><button class="btn btn-primary" disabled>Add to friends</button></td>
+                                <td><button class="btn btn-success" disabled>Add to friends</button></td>
                                 <td><button class="btn btn-danger" id="delete" onclick="deleteObject('${u.email}', '/friend/delete', '/friend/find')">Delete from friends</button> </td>
                             </c:when>
                             <c:otherwise>
-                                <td><button class="btn btn-primary" id="add" onclick="add('${u.email}', '/friend/find')">Add to friends</button></td>
+                                <td><button class="btn btn-success" id="add" onclick="add('${u.email}', '/friend/find')">Add to friends</button></td>
                                 <td></td>
                             </c:otherwise>
                         </c:choose>
-
                     </tr>
                 </c:forEach>
-
                 </tbody>
             </table>
-
         </div><br>
-
-
     </main>
 </div>
 

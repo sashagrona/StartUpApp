@@ -63,3 +63,9 @@ function assignButton() {
         }
     });
 }
+
+var form = document.getElementById("form");
+
+document.getElementById("your-id").addEventListener("click", function () {
+    form.submit();
+});

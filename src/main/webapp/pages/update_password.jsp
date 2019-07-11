@@ -22,7 +22,7 @@
     <div class="row form-horizontal">
         <div class="col-md-offset-3 col-md-6">
             <%--            new password input--%>
-            <h2>Input your new password</h2><br>
+            <h2>Input your new password</h2>
             <form id="regist" action="/forgot/updatePassword" method="post">
                 <div class="form-group">
                     <input required type="password" id="one" name="password" placeholder="New password"
@@ -30,7 +30,7 @@
                     <div class="requirements" id="m_PasswordOne"></div>
                     <br>
                     <%--                            checking password--%>
-                    <h2>Confirm your password</h2><br>
+                    <h2>Confirm your password</h2>
                     <input required type="password" id="two" name="passConfirm"
                            placeholder="Confirm new password"
                            class="form-control">

@@ -32,23 +32,22 @@
             <form class="form-horizontal" id="register" action="/sign_up" method="post">
 <%--Registration form--%>
                 <div class="form-group">
-                    <h2>Sign up to start creating your perfect StartUp</h2><br>
-                    <br><p>Your login:</p><br>
-                    <input required type="text" id="login" class="form-control" name="login" placeholder="Login">
+                    <h2>Registration</h2>
+                    <div style="font-size: 20px;">Your login:</div>
+                    <input style="background: #f1f1f1" required type="text" id="login" class="form-control" name="login" placeholder="Login">
                     <div class="requirements" id="mLogin"></div>
-                    <br><p>Your email:</p><br>
-                    <input required type="email" class="form-control" id="email" name="email" placeholder="Email">
+                    <br><div style="font-size: 20px;">Your email:</div>
+                    <input style="background: #f1f1f1" required type="email" class="form-control" id="email" name="email" placeholder="Email">
                     <div class="requirements" id="mEmail"></div>
 
-                    <br><p>Your password:</p><br>
-                    <input required type="password" class="form-control" id="password" name="password"
+                    <br><div style="font-size: 20px;">Your password:</div>
+                    <input style="background: #f1f1f1" required type="password" class="form-control" id="password" name="password"
                            placeholder="Password">
                     <div class="requirements" id="mPassword"></div>
                 </div>
 
-                <input type="submit" class="btn btn-primary" value="Sign up">
+                <input type="submit" style="width: 82%;" class="btn btn-primary btn-block center-block" value="Sign up">
                 <sec:csrfInput/>
-                <br><br><p><a href="login">Return to login?</a> </p>
             </form>
 
         </div>

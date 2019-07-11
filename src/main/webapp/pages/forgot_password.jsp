@@ -38,23 +38,18 @@
                 </a>
                 </c:when>
                 <c:otherwise>
-                    <h2>Input the email to update the password</h2><br>
+                    <h2>Update password</h2><br>
                     <form id="reg" action="/forgot/resetPassword" method="post">
                         <div class="form-group">
                             <input required type="email" class="form-control" id="emailOne" name="email"
                                    placeholder="Email">
 
                             <div class="requirements" id="m_Email"></div>
-                            <br><br>
+                            <br>
                             <input type="submit" class="btn btn-success" value="Reset password">
-
-
                             <sec:csrfInput/>
                         </div>
                     </form>
-                    <br><br><a href="/login">
-                    <button class="btn btn-primary">Return to login</button>
-                </a>
                 </c:otherwise>
             </c:choose>
         </div>

@@ -87,7 +87,7 @@ public class MainController {
                 simpleUserService.saveUser(user);
             }
         }
-        return "index";
+        return "redirect:/create_startup";
     }
 
     @RequestMapping("/myprofile")
@@ -222,7 +222,16 @@ public class MainController {
         model.addAttribute("photo", user.getPictureURL());
         model.addAttribute("email", user.getEmail());
         model.addAttribute("startups",dtos);
-        return "startups";
+        return "index";
+    }
+
+    @RequestMapping("/about")
+    public String about(Authentication authentication, Model model){
+        SimpleUser user = simpleUserService.getSimpleUserFromAuth(authentication);
+        model.addAttribute("admin", true);
+        model.addAttribute("login", user.getLogin());
+        model.addAttribute("photo", user.getPictureURL());
+        return "about";
     }
 
     @RequestMapping("/admin")

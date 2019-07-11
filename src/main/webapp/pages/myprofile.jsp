@@ -23,8 +23,8 @@
 </head>
 <body>
 <%--Navigation bar--%>
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: #dcdcdc;opacity: 0.99">
-    <a class="navbar-brand" style="color: black; font-size: 40px" href="/">StartUpApp</a>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: rgba(107,111,112,0.78);opacity: 0.99">
+    <a class="navbar-brand" style="color: black; font-size: 40px" href="/about">StartUpApp</a>
     <button class="navbar-toggler"
             type="button"
             style="color: black;"
@@ -39,51 +39,55 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto sidenav" id="navAccordion">
             <li class="nav-item active">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/myprofile">My
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/myprofile">My
                     Profile</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/colleg">My
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/colleg">My
                     Friends</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/create_startup">My
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/create_startup">My
                     StartUps</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/friend/find">Find
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/friend/find">Find
                     friends</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="font-size: 26px;align-self: center; color: #333333" href="/chat/all">StartUp
+                <a class="nav-link" style="font-size: 26px;align-self: center; color: #242424" href="/chat/all">StartUp
                     chats</a>
             </li>
+
+            <form action="/logout" method="post" id="form">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-size: 26px;align-self: center; color: #333333" onclick="document.getElementById('form').submit();">Log
+                        Out</a>
+                </li>
+                <sec:csrfInput/>
+            </form>
         </ul>
-        <form class="form-inline ml-auto mt-2 mt-md-0" action="/logout" method="post">
+        <div class="form-inline ml-auto mt-2 mt-md-0">
             <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                 <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <img src="${photo}" width="50" style="margin: 10px" height="50"
-                             onerror="if (this.src!='/icons/default.png') this.src = '/icons/default.png'; ">
-                    </li>
                     <li class="nav-item">
                         <div style="color: #000;font-size: 20px;margin:15px;"><c:out value="${login}"/></div>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-default" style="margin: 7px;font-size: 20px;color: black" type="submit">
-                            Log Out
-                        </button>
+                        <img src="${photo}" width="50" style="margin: 10px" height="50"
+                             onerror="if (this.src!='/icons/default.png') this.src = '/icons/default.png'; ">
                     </li>
+
                 </ul>
             </div>
-            <sec:csrfInput/>
-        </form>
+
+        </div>
     </div>
 </nav>
 
 <div align="right">
-    <main class="form-horizontal" style="width: 72%;margin: 50px;background-color: #00b7f7;opacity: 100;">
-        <div class="container-fluid">
+    <main class="form-horizontal" style="width: 72%;margin: 50px;background-color: rgba(107,111,112,0.78);opacity: 80%;">
+        <div class="container-fluid"><br>
             <h2>My Profile</h2><br>
             <c:url value="/set_photo" var="url"/>
 <%--            Avatar setting--%>
@@ -97,39 +101,31 @@
                     <input type="file" class="custom-file-input" name="file" id="file">
                     <label class="custom-file-label" for="file"><div style="float: left;">Choose file</div></label>
                 </div>
-                <br><br><input type="submit" class="btn btn-primary" value="Set new photo">
-                <br><br>
+                <br><br><input type="submit" class="btn btn-success" value="Set new photo">
                 <sec:csrfInput/>
-            </form>
+            </form><br>
 <%--Profile updating--%>
             <form action="/updateProfile" id="register" method="post">
-                <br>
-                <p>Change login:(more than 3 characters)</p><br>
-                <input type="text" id="login" class="form-control" name="login" placeholder="${login}">
+
+
+                <div ><p style="font-size: 22px;">Login</p></div>
+                <input style="width: 40%;margin-left: 30%" type="text" id="login" class="form-control" name="login" placeholder="${login}">
                 <div class="requirements" id="mLogin"></div>
 
                 <br>
-                <p>Change password:(at least 6 characters)</p><br>
-                <input type="password" class="form-control" id="password" name="password"
+                <div><p style="font-size: 22px;">Password</p></div>
+                <input style="width: 40%;margin-left: 30%" type="password" class="form-control" id="password" name="password"
                        placeholder="******">
                 <div class="requirements" id="mPassword"></div>
                 <br>
-                <p>Change phone(+380..)</p><br>
-                <input type="tel" pattern="[\+]\d{3}\d{4}\d{5}" class="form-control" id="phone" name="phone"
+                <div><p style="font-size: 22px;">Phone number</p></div>
+                <input style="width: 40%;margin-left: 30%" type="tel" pattern="[\+]\d{3}\d{4}\d{5}" class="form-control" id="phone" name="phone"
                        placeholder="${phone}">
                 <div class="requirements" id="mPhone"></div>
-                <br><br><input type="submit" class="btn btn-primary" value="Update">
+                <br><input type="submit" class="btn btn-success" value="Update">
                 <sec:csrfInput/>
-            </form>
-            <br>
-<%--            Log out function --%>
-            <form action="/logout" method="post">
-                <button class="btn btn-success" style="margin: 7px;font-size: 20px;color: black" type="submit">
-                    Log Out
-                </button>
-                <sec:csrfInput/>
-            </form>
 
+            </form>
         </div>
     </main>
 </div>
