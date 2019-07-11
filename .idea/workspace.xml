@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a9dd21-0015-4b29-89db-4ba536787ba4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/backgrounds/back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/backgrounds/back.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/validatePasswords.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/validatePasswords.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/all_chats.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/all_chats.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/chat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/chat.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/colleg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/colleg.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/documents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/documents.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/forgot_password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/forgot_password.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/friend_profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/friend_profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/friends.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/friends.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/myprofile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/myprofile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/startup_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/startup_page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/startupfriends.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/startupfriends.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/startups.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/tasks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/tasks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/update_password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/update_password.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/backgrounds/back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/backgrounds/back.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/validatePasswords.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/validatePasswords.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,11 +56,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="233" column="23" selection-start-line="233" selection-start-column="23" selection-end-line="233" selection-end-column="23" />
+            <state relative-caret-position="319">
+              <caret line="232" column="9" selection-start-line="232" selection-start-column="9" selection-end-line="232" selection-end-column="9" />
+              <folding>
+                <element signature="e#10549#10550#0" expanded="true" />
+                <element signature="e#10583#10584#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/friends.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="874">
               <caret line="115" column="55" lean-forward="true" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
             </state>
           </provider>
@@ -193,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/login.css" />
-        <option value="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/all_chats.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/chat.jsp" />
@@ -207,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/pages/about.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/tasks.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/friends.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/net/bigmir/controllers/MainController.java" />
       </list>
     </option>
   </component>
@@ -534,12 +510,12 @@
       <workItem from="1562775044314" duration="4266000" />
       <workItem from="1562780128923" duration="2021000" />
       <workItem from="1562833945494" duration="9778000" />
-      <workItem from="1562855888359" duration="18656000" />
+      <workItem from="1562855888359" duration="19016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="556994000" />
+    <option name="totallyTimeSpent" value="557354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -998,13 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="233" column="23" selection-start-line="233" selection-start-column="23" selection-end-line="233" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/StartUpController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -1014,8 +983,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/friends.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="874">
           <caret line="115" column="55" lean-forward="true" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/bigmir/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="232" column="9" selection-start-line="232" selection-start-column="9" selection-end-line="232" selection-end-column="9" />
+          <folding>
+            <element signature="e#10549#10550#0" expanded="true" />
+            <element signature="e#10583#10584#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

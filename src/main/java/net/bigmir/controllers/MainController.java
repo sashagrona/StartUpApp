@@ -228,7 +228,9 @@ public class MainController {
     @RequestMapping("/about")
     public String about(Authentication authentication, Model model){
         SimpleUser user = simpleUserService.getSimpleUserFromAuth(authentication);
-        model.addAttribute("admin", true);
+        if (user.getRole().equals(UserRole.ADMIN)) {
+            model.addAttribute("admin", true);
+        }
         model.addAttribute("login", user.getLogin());
         model.addAttribute("photo", user.getPictureURL());
         return "about";
