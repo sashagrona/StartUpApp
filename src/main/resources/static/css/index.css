@@ -7,12 +7,12 @@ body {
     padding-top: 4.5rem;
     margin-bottom: 4.5rem;
     height: 100%;
-    background: #11a3fc url(backgrounds/back.jpg);
+    background: #ddfcb5 url(backgrounds/back.jpg);
     background-size: cover;
 }
 
 a.el:hover{
- background-color: rgba(200, 209, 245, 0.53);
+ background-color: rgba(143, 147, 148, 0.78);
 }
 .footer {
     position: absolute;

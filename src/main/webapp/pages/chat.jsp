@@ -122,7 +122,7 @@
                     </ul>
                     <form id="messageForm" name="messageForm">
                         <div class="form-group">
-                            <div class="input-group clearfix">
+                            <div style="margin-top: -12px;" class="input-group">
                                 <input type="text" id="message" placeholder="Type a message..." autocomplete="off"
                                        class="form-control"/>
                                 <button type="submit" class="btn btn-success">Send</button>

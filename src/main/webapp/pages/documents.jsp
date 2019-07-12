@@ -128,8 +128,8 @@
                         <c:forEach items="${documents}" var="d">
                             <tr style="font-size: 22px;align-self: center; color: #333333">
                                 <td><img src="/icons/doc.png" class="img-circle" width="40" height="40"/></td>
-                                <td><a href="/document/download?name=${d.name}&sName=${d.startUp.name}"> <c:out value="${d.name}"/></a></td>
-                                <td><c:out value="${d.size}"/></td>
+                                <td><a style="color: black;" href="/document/download?name=${d.name}&sName=${d.startUp.name}"> <c:out value="${d.name}"/></a></td>
+                                <td style="color: black;"><c:out value="${d.size}"/></td>
                                 <td><button class="btn btn-danger" id="delete" onclick="deleteObject('${d.path}', '/document/delete', '/startup/${sName}/document')">Delete</button> </td>
                             </tr>
                         </c:forEach>

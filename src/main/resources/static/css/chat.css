@@ -138,6 +138,7 @@ a {
 #messageForm .input-group input {
     float: left;
     width: calc(100% - 85px);
+    margin-bottom: 20px;
 }
 
 #messageForm .input-group button {

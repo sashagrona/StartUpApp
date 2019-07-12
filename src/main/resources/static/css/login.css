@@ -3,7 +3,7 @@ html{height: 100%;}
 body{
     -  margin: 0;
     height: 100%;
-    background: #11a3fc url(backgrounds/back.jpg);
+    background: #ddfcb5 url(backgrounds/back.jpg);
     background-size: cover;}
 
 .form-horizontal{
