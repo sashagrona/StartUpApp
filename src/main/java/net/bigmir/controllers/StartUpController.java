@@ -44,8 +44,6 @@ public class StartUpController {
         SimpleUser user = simpleUserService.getSimpleUserFromAuth(authentication);
         StartUp startUp = StartUp.fromDTO(startUpDTO);
         startUpService.createNewStartUp(startUp,user);
-        Chat chat = new Chat(startUp.getName());
-        user.addChat(chat);
         return new ResponseEntity<>(new SuccessResult(), HttpStatus.OK);
     }
 
@@ -87,7 +85,7 @@ public class StartUpController {
     }
 
     @RequestMapping("/{name}/add_participant")
-    public ResponseEntity<ResultDTO> addParticipant(@PathVariable("name") String startUpName, @RequestParam("json") String friendEmailJson, Authentication authentication){
+    public ResponseEntity<ResultDTO> addParticipant(@PathVariable("name") String startUpName, @RequestParam("json") String friendEmailJson){
         StartUp startUp = startUpService.findByName(startUpName);
         Gson gson = new Gson();
         String friendEmail = gson.fromJson(friendEmailJson, String.class);

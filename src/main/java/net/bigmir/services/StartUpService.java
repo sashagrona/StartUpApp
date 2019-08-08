@@ -38,7 +38,6 @@ public class StartUpService {
         startUp.setPlan(plan);
         startUpRepository.save(startUp);
         Chat chat = new Chat(startUp.getName());
-
         user.addChat(chat);
         chatRepository.save(chat);
     }

@@ -1,32 +1,27 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: olexandr
-  Date: 06.04.19
-  Time: 13:50
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <%--Tokens for csrf security--%>
     <meta name="_csrf" content="${_csrf.token}"/>
     <meta name="_csrf_header" content="${_csrf.headerName}"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/login.css">
-    <link rel="stylesheet" href="/css/validation.css">
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="/css/index.css"/>
+    <link rel="stylesheet" href="/css/login.css"/>
+    <link rel="stylesheet" href="/css/validation.css"/>
 
     <title>Admin</title>
 </head>
 <body>
 <%--Navigation bar--%>
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: rgba(107,111,112,0.78);opacity: 0.99">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top "
+     style="background-color: rgba(107,111,112,0.78);opacity: 0.99">
     <a class="navbar-brand" style="color: black; font-size: 40px" href="/about">StartUpApp</a>
     <button class="navbar-toggler"
             type="button"
@@ -64,7 +59,8 @@
 
             <form action="/logout" method="post" id="form">
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="font-size: 26px;align-self: center; color: #333333" onclick="document.getElementById('form').submit();">Log
+                    <a class="nav-link" href="#" style="font-size: 26px;align-self: center; color: #333333"
+                       onclick="document.getElementById('form').submit();">Log
                         Out</a>
                 </li>
                 <sec:csrfInput/>
@@ -89,21 +85,22 @@
 </nav>
 
 <div align="right">
-    <main class="form-horizontal" style="width: 72%;margin: 50px;background-color: rgba(107,111,112,0.78);opacity: 80%;">
-        <div class="container-fluid"><br>
+    <main class="form-horizontal"
+          style="width: 72%;margin: 50px;background-color: rgba(107,111,112,0.78);opacity: 80%;">
+        <div class="container-fluid"><br/>
             <%--            Search function--%>
             <form class="navbar-form navbar-left" method="post" action="/admin">
                 <div class="form-group">
-                    <input type="text" class="form-control" name="word" placeholder="Search">
+                    <input type="text" class="form-control" name="word" placeholder="Search"/>
                 </div>
                 <button type="submit" class="btn btn-success">Search</button>
                 <sec:csrfInput/>
             </form>
-            <br>
+            <br/>
             <c:if test="${success ne null}">
                 <p><c:out value="${success}"></c:out></p>
             </c:if>
-            <br><br>
+            <br/><br/>
             <%--            List of all users with ban function--%>
             <table id="data" class="table table-hover">
                 <thead>
@@ -112,7 +109,7 @@
                 <c:forEach items="${users}" var="u">
                     <tr>
                         <td><a href="/friend/profile?email=${u.email}"><img src="${u.pictureURL}" width="40" height="40"
-                                                                            onerror="if (this.src!='/icons/default.png') this.src = '/icons/default.png';"></a>
+                                                                            onerror="if (this.src!='/icons/default.png') this.src = '/icons/default.png';"/></a>
                         </td>
                         <td><c:out value="${u.login}"></c:out></td>
                         <td>${u.role}</td>
@@ -131,7 +128,7 @@
             </table>
 
         </div>
-        <br>
+        <br/>
 
 
     </main>

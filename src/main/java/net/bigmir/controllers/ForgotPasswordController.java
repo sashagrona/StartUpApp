@@ -48,7 +48,7 @@ public class ForgotPasswordController {
         }else {
             String token = UUID.randomUUID().toString();
             simpleUserService.createPasswordResetToken(simpleUser, token);
-//            sending message on email
+//            sending message via email
             String appUrl = "http://" + request.getServerName() + ":" + request.getServerPort() + request.getContextPath();
             SimpleMailMessage mail = constructResetTokenEmail(appUrl, token, simpleUser);
             mailSender.send(mail);

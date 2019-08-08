@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.support.StandardServletMultipartResolver;
 
+import java.util.Date;
 import java.util.TimeZone;
 
 @SpringBootApplication
@@ -34,14 +35,11 @@ public class StartUpAppApplication {
         return new CommandLineRunner() {
             @Override
             public void run(String... args) throws Exception {
-////            Users default creation
+//              Users default creation
                 SimpleUser petya = new SimpleUser("Petya Buhankin", "petya_smth@smth.ua", "+380981234567", "$2a$10$ZuNnngcU6gFzSBmuGqHGm..gtRmemf40s9aXpOkeumQfymeV.k3cm", null, UserRole.USER);
                 SimpleUser sasha = new SimpleUser("Sasha Grona", "sasha_grona@bigmir.net", "+380990394853", "$2a$10$ZuNnngcU6gFzSBmuGqHGm..gtRmemf40s9aXpOkeumQfymeV.k3cm", null, UserRole.ADMIN);
                 SimpleUser start = new SimpleUser("StartUpApp", "startupappteam@gmail.com", "+380961234567", "$2a$10$ZuNnngcU6gFzSBmuGqHGm..gtRmemf40s9aXpOkeumQfymeV.k3cm", null, UserRole.USER);
 
-                for (int i=0;i<30;i++){
-                    simpleUserService.saveUser(new SimpleUser("USER"+i, i+"petya_smth@smth.ua", null,null,null, UserRole.USER));
-                }
 
                 Friend friendPetya = new Friend(petya);
                 Friend friendSasha = new Friend(sasha);
@@ -54,6 +52,10 @@ public class StartUpAppApplication {
                 simpleUserService.saveUser(petya);
                 simpleUserService.saveUser(sasha);
                 simpleUserService.saveUser(start);
+
+                for (int i = 0; i < 30; i++) {
+                    simpleUserService.saveUser(new SimpleUser("USER" + i, i + "petya_smth@smth.ua", null, null, null, UserRole.USER));
+                }
 
 
                 StartUp startUpSasha = new StartUp.StartUpBuilder()

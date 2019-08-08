@@ -135,6 +135,7 @@ public class MainController {
         return "redirect:/myprofile";
 
     }
+
     //for showing avatar pictures from different urls
     @RequestMapping("{end}/{end}/photos/{name}")
     public ResponseEntity<byte []> getPhotoFromMoreEnds(@PathVariable("name") String name){

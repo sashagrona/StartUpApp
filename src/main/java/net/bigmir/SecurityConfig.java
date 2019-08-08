@@ -32,6 +32,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .passwordEncoder(passwordEncoder());
     }
 
+
     @Bean
     public UserDetailsService getUserDetailsService(){
         return new UserDetailsServiceImpl();
@@ -76,4 +77,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                   .logoutSuccessUrl("/login?logout")
                 .invalidateHttpSession(true);
     }
+
 }
